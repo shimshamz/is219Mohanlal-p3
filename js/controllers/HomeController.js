@@ -88,8 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
-	
+	},
+    { 
+      title:      'Inception', 
+      iscore:     8.8,
+      rating:     'PG-13',
+      runtime:    148,
+      released:   new Date('2010', '06', '16'),
+      country:    'USA',
+      posters:    ['img/inception.jpg','img/inception2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt1375666/',
+      website:    'https://www.warnerbros.com/inception',
+      likes:      1542,
+      dislikes:   264,
+      posterindex: 0
+      },
+    { 
+      title:      'Need for Speed', 
+      iscore:     6.5,
+      rating:     'PG-13',
+      runtime:    132,
+      released:   new Date('2014', '02', '14'),
+      country:    'USA',
+      posters:    ['img/nfs.jpg','img/nfs2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt2369135/',
+      website:    'https://www.facebook.com/needforspeed/',
+      likes:      983,
+      dislikes:   381,
+      posterindex: 0
+      },
+    { 
+      title:      'Casino Royale', 
+      iscore:     8.0,
+      rating:     'PG-13',
+      runtime:    144,
+      released:   new Date('2006', '10', '17'),
+      country:    'USA',
+      posters:    ['img/casino.jpg','img/casino2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt0381061/',
+      website:    'https://www.facebook.com/CasinoRoyaleMovie/',
+      likes:      2567,
+      dislikes:   199,
+      posterindex: 0
+      }
 	
   ];
 	
